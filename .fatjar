@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed May 11 10:09:55 MDT 2011
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=HPL.jar
+manifest.mergeall=true
+manifest.mainclass=hpl.HPL
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=<inc|HPL/src\\texts>
