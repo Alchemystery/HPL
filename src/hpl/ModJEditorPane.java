@@ -22,7 +22,7 @@ public class ModJEditorPane extends JEditorPane{
 
       public ModJEditorPane() throws IOException{
         super();
-        bufferedImage = ImageIO.read(this.getClass().getResource("images/p13.jpg"));
+        bufferedImage = ImageIO.read(this.getClass().getResource("images/p14.jpg"));
         Rectangle rect = new Rectangle(0, 0, bufferedImage.getWidth(null), bufferedImage.getHeight(null));
         texturePaint = new TexturePaint(bufferedImage, rect);
         setOpaque(false);
